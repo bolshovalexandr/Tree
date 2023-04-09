@@ -2,7 +2,7 @@
 
 namespace Tree.Web.Controllers
 {
-    public class Tree : Controller
+    public class TreeController : Controller
     {
         public IActionResult Index()
         {
