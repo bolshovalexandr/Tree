@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree.Web", "Tree.WEB\Tree.Web.csproj", "{6B65D654-35D9-4787-83B2-F4718D7F4F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree.Logic", "Tree.Logic\Tree.Logic.csproj", "{F95B7FFD-B6A1-4E29-89E3-CA909AB26CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree.DAL", "Tree.DAL\Tree.DAL.csproj", "{23657A89-AFAF-485A-ABE8-9ACA83CC64AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B65D654-35D9-4787-83B2-F4718D7F4F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B65D654-35D9-4787-83B2-F4718D7F4F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B65D654-35D9-4787-83B2-F4718D7F4F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B65D654-35D9-4787-83B2-F4718D7F4F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95B7FFD-B6A1-4E29-89E3-CA909AB26CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95B7FFD-B6A1-4E29-89E3-CA909AB26CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95B7FFD-B6A1-4E29-89E3-CA909AB26CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95B7FFD-B6A1-4E29-89E3-CA909AB26CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23657A89-AFAF-485A-ABE8-9ACA83CC64AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23657A89-AFAF-485A-ABE8-9ACA83CC64AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23657A89-AFAF-485A-ABE8-9ACA83CC64AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23657A89-AFAF-485A-ABE8-9ACA83CC64AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05554D18-FFAC-4DE2-8941-3A26E5B95FD4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Tree.WEB</title>
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a asp-area="" asp-controller="Home" asp-action="Index">Tree.WEB</a>
+            <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            <a asp-area="" asp-controller="Tree" asp-action="Index">Tree</a>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer></footer>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
