@@ -1,6 +1,6 @@
 ﻿namespace Tree.DAL
 {
-    public class Tree
+    public class TreeDAL
     {
 
     }
