@@ -1,0 +1,30 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "jquery": true
+    },
+    "extends": [ "eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier", "plugin:prettier/recommended" ],
+    "overrides": [],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [ "prettier", "@typescript-eslint" ],
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            { "SwitchCase": 1 }
+        ],
+        "linebreak-style": 0,
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-prototype-builtins": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-var-requires": "off"
+    }
+}
