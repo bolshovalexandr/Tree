@@ -1,12 +1,19 @@
 {
-  "compilerOptions": {
-    "noImplicitAny": false,
-    "noEmitOnError": true,
-    "removeComments": false,
-    "sourceMap": true,
-    "target": "ESNext"
-  },
-  "exclude": [
-    "node_modules"
-  ]
+    "compilerOptions": {
+        "strict": true,
+        "jsx": "preserve",
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": false,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "module": "es6",
+        "target": "ES2022",
+        "skipLibCheck": true,
+        "types": [
+            "@types/jquery"
+        ],
+        "baseUrl": "."
+    }
 }
