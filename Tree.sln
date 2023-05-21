@@ -3,13 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree.Web", "Tree.WEB\Tree.Web.csproj", "{6B65D654-35D9-4787-83B2-F4718D7F4F8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree.Web", "Tree.WEB\Tree.Web.csproj", "{6B65D654-35D9-4787-83B2-F4718D7F4F8E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F95B7FFD-B6A1-4E29-89E3-CA909AB26CBA} = {F95B7FFD-B6A1-4E29-89E3-CA909AB26CBA}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree.Logic", "Tree.Logic\Tree.Logic.csproj", "{F95B7FFD-B6A1-4E29-89E3-CA909AB26CBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree.Logic", "Tree.Logic\Tree.Logic.csproj", "{F95B7FFD-B6A1-4E29-89E3-CA909AB26CBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree.DAL", "Tree.DAL\Tree.DAL.csproj", "{23657A89-AFAF-485A-ABE8-9ACA83CC64AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree.DAL", "Tree.DAL\Tree.DAL.csproj", "{23657A89-AFAF-485A-ABE8-9ACA83CC64AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tree.PostgresMigrator", "Tree.PostgresMigrator\Tree.PostgresMigrator.csproj", "{225B6A76-D6C4-4846-A57E-3B9B244F4AD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tree.PostgresMigrator", "Tree.PostgresMigrator\Tree.PostgresMigrator.csproj", "{225B6A76-D6C4-4846-A57E-3B9B244F4AD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

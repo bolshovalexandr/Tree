@@ -1,19 +1,27 @@
 ﻿using Tree.DAL.Domain.Genre;
-using Tree.DAL.Domain.Node;
 using Tree.DAL.Repositories.Abstract;
+using static Tree.DAL.TreeDAL;
 
 namespace Tree.DAL.Repositories
 {
     public class GenreRepository : IGenreRepository, IRepository<Genre>
     {
-        public ICollection<Genre> Genres => throw new NotImplementedException();
+        private readonly PostgreeContext _dbContext;
+
+        public GenreRepository(PostgreeContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
+
+        ICollection<Genre> IGenreRepository.Genres => _dbContext.Genres.ToList();
+
 
         public void Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Node Get(int id)
+        public Genre Get(int id)
         {
             throw new NotImplementedException();
         }
